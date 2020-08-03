@@ -18,7 +18,7 @@
     </div>
   </div>
 </template>
-
+<!--Baci oko na js.-->
 <script>
 import Blue from './components/Blue.vue';
 import Green from './components/Green.vue';
