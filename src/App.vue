@@ -10,7 +10,9 @@
         <button class="btn btn-danger" @click="selectedComponent = 'appRed'">Load Red
           Template</button>
         <hr>
-        <component :is="selectedComponent"></component>
+        <component :is="selectedComponent">
+           <!-- mogao sam i ovde da prosledim komponentu -->
+        </component>
 <!--        <app-blue><slot-blue slot="slotBlue"></slot-blue></app-blue>-->
 <!--        <app-green><slot-green slot="slotGreen"></slot-green></app-green>-->
 <!--        <app-red><slot-red slot="slotRed"></slot-red></app-red>-->
@@ -18,7 +20,7 @@
     </div>
   </div>
 </template>
-
+<!--Baci oko na js.-->
 <script>
 import Blue from './components/Blue.vue';
 import Green from './components/Green.vue';
